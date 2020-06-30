@@ -2,7 +2,7 @@
 from flask import Flask
 from flask_restx import Api, Resource, fields
 from sklearn.externals import joblib
-from m09_model_deployment import predict_proba
+from P2_model_deployment import predict_proba
 
 
 app = Flask(__name__)
